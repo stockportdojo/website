@@ -35,7 +35,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 			<p><a class="btn btn-default" href="/book.php" role="button">Book My Place &raquo;</a></p>
 		</div>
 	</div>
-
+</div> <!-- /container -->
 <?php
 include(dirname(__FILE__) . '/../includes/footer.php');
 ?>

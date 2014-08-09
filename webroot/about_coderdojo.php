@@ -13,7 +13,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 			<p style="margin-top: 2em;"><a href="http://coderdojo.com/about" class="btn btn-primary btn-lg" role="button">Visit CoderDojo.com to learn more &raquo;</a></p>
 		</div>
 	</div>
-
+</div> <!-- /container -->
 <?php
 include(dirname(__FILE__) . '/../includes/footer.php');
 ?>
