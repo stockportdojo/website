@@ -14,10 +14,6 @@ body {
 	margin-top: 0;
 }
 
-.logo {
-	margin-top: 30px;
-}
-
 footer {
 	position: absolute;
 	bottom: 0;
@@ -30,4 +26,12 @@ footer {
 footer hr {
 	width: 80%;
 	margin: 0 auto 10px;
+}
+
+.container img {
+	margin-top: 20px;
+}
+
+.container img.logo {
+	margin-top: 30px;
 }
