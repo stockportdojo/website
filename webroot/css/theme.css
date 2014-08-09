@@ -1,7 +1,13 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
+	/* Move down content because we have a fixed navbar that is 50px tall */
 	padding-top: 50px;
-	padding-bottom: 20px;
+	/* Margin bottom by footer height */
+	margin-bottom: 3em;
 }
 
 .jumbotron h1 {
@@ -10,4 +16,18 @@ body {
 
 .logo {
 	margin-top: 30px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 3em;
+	text-align: center;
+}
+
+footer hr {
+	width: 80%;
+	margin: 0 auto 10px;
 }
