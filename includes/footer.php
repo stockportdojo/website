@@ -1,15 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: jim
- * Date: 08/08/14
- * Time: 22:32
- */
-?>
 <hr>
 
 <footer>
-	<p>&copy; Company 2014</p>
+	<p>This website was created by StockportDojo Mentors and Ninjas. All source code is available from <a href="https://github.com/stockportdojo/website">GitHub</a> - take it and use it, and show us what cool stuff you did with it!</p>
 </footer>
 </div> <!-- /container -->
 
