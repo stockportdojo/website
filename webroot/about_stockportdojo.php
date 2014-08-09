@@ -31,6 +31,6 @@ include(dirname(__FILE__) . '/../includes/header.php');
 		</div>
 	</div>
 </div> <!-- /container -->
-	<?php
-	include(dirname(__FILE__) . '/../includes/footer.php');
-	?>
+<?php
+include(dirname(__FILE__) . '/../includes/footer.php');
+
