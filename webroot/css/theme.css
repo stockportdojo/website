@@ -44,6 +44,11 @@ footer hr {
 	padding: 0;
 }
 
-.col-md-7 h2 {
+.col-md-7 h2, .col-md-5 h3 {
 	margin-top: 0;
+}
+
+.gutter-right {
+	margin-right: 1em;
+	padding-left: 0;
 }
