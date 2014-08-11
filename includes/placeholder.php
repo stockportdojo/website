@@ -1,3 +1,18 @@
+<?php
+
+/**
+ * placeholder.php
+ *
+ * This file makes the contents of a page that isn't finished yet. Include it in any pages that
+ * you want to come back to later, but that might already have links pointing to them.
+ *
+ * Include this file between the header and footer, like this:
+ *
+ * include(dirname(__FILE__) . '/../includes/placeholder.php');
+ *
+ */
+
+?>
 <div class="jumbotron">
 	<div class="container">
 		<h1>Ooops!</h1>

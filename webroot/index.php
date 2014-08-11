@@ -1,8 +1,18 @@
 <?php
+/**
+ * index.php
+ *
+ * This file is the "Home" page.
+ *
+ */
+
+/**
+ * Include the page header to add the menu at the top of the page.
+ */
 include(dirname(__FILE__) . '/../includes/header.php');
 ?>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
+<!-- jumbotron is a large element to attract attention to an important message -->
 <div class="jumbotron">
 	<div class="container">
 		<div class="row">
@@ -17,7 +27,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 </div>
 
 <div class="container">
-	<!-- Example row of columns -->
+	<!-- row of columns -->
 	<div class="row">
 		<div class="col-md-4">
 			<h2>One Rule: Be Cool!</h2>
@@ -37,5 +47,9 @@ include(dirname(__FILE__) . '/../includes/header.php');
 	</div>
 </div> <!-- /container -->
 <?php
+
+/**
+ * Include the page footer to finish the page neatly.
+ */
 include(dirname(__FILE__) . '/../includes/footer.php');
 

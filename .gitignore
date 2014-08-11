@@ -1,1 +1,6 @@
+# This file is used by Git version control software
+# Any files or folders listed in here will not be included in the
+# version control repository
+
+# Ignore the files used by PhpStorm (a code editor)
 .idea

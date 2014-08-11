@@ -1,9 +1,9 @@
 <?php
 
 /**
- * minecraft.php
+ * useful_stuff.php
  *
- * This file is the "Minecraft" page.
+ * This file is the "Useful Stuff" page.
  *
  */
 

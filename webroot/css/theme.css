@@ -1,8 +1,29 @@
+/*
+ * theme.css
+ *
+ * This file contains CSS style rules to adjust the appearance of our page.
+ *
+ * These rules will be added after the rules in bootstrap.css and make changes to
+ * the page that aren't included in bootstrap.css.
+ *
+ */
+
+/*
+ * Make sure our document fills the browser and has a "known" height so we can use it later.
+ *
+ * This is one of the rules that makes the page fill the browser window, with the footer at the
+ * very bottom, even if there's not much content.
+ *
+ */
 html {
 	position: relative;
 	min-height: 100%;
 }
 
+/*
+ * Style rules to apply to the main page body.
+ *
+ */
 body {
 	/* Move down content because we have a fixed navbar that is 50px tall */
 	padding-top: 50px;
@@ -10,10 +31,22 @@ body {
 	margin-bottom: 3em;
 }
 
+/*
+ * Adjust the margin at the top of h1 tags inside the jumbotron so they
+ * are flush at the top of the jumbotron element.
+ *
+ */
 .jumbotron h1 {
 	margin-top: 0;
 }
 
+/*
+ * Set the styles for the footer element so it sits at the bottom of
+ * the window.
+ *
+ * Also makes sure any footer contents sit centred in the middle of the page.
+ *
+ */
 footer {
 	position: absolute;
 	bottom: 0;
@@ -23,31 +56,64 @@ footer {
 	text-align: center;
 }
 
+/*
+ * Set the style of the horizontal rule in the footer to make sure it's narrower
+ * than the page and sits in the middle, but doesn't push the content down
+ * too far.
+ *
+ */
 footer hr {
 	width: 80%;
 	margin: 0 auto 10px;
 }
 
+/*
+ * Set the top margin of img tags inside .container elements.
+ *
+ */
 .container img {
 	margin-top: 20px;
 }
 
+/*
+ * Set the top margin of the logo element to push it down a little more
+ * than standard images.
+ *
+ */
 .container img.logo {
 	margin-top: 30px;
 }
 
+/*
+ * Set the top margin of .row elements inside .container elements.
+ *
+ */
 .container .row {
 	margin-top: 10px;
 }
 
+/*
+ * A class to remove left padding from an element
+ *
+ */
 .no-left-padding {
 	padding: 0;
 }
 
+/*
+ * Remove the top margin from h2 tags inside .col-md-7 elements and also
+ * h3 tags inside .col-md-5 elements
+ *
+ */
 .col-md-7 h2, .col-md-5 h3 {
 	margin-top: 0;
 }
 
+/*
+ * A class to set the right margin and left padding of elements that need
+ * a gutter on the right
+ *
+ */
 .gutter-right {
 	margin-right: 1em;
 	padding-left: 0;

@@ -1,4 +1,15 @@
 <?php
+
+/**
+ * about_stockportdojo.php
+ *
+ * This file is the "When / Where is StockportDojo?" page.
+ *
+ */
+
+/**
+ * Include the page header to add the menu at the top of the page.
+ */
 include(dirname(__FILE__) . '/../includes/header.php');
 ?>
 <div class="container">
@@ -32,5 +43,9 @@ include(dirname(__FILE__) . '/../includes/header.php');
 	</div>
 </div> <!-- /container -->
 <?php
+
+/**
+ * Include the page footer to finish the page neatly.
+ */
 include(dirname(__FILE__) . '/../includes/footer.php');
 

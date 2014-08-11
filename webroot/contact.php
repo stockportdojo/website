@@ -1,5 +1,11 @@
 <?php
-include(dirname(__FILE__) . '/../includes/header.php');
+
+/**
+ * contact.php
+ *
+ * This file is the "Contact Us" page.
+ *
+ */
 
 $formSubmitted = false;
 $formErrors = array();
@@ -42,6 +48,11 @@ if (isset($_POST['message'])) {
 	}
 
 }
+
+/**
+ * Include the page header to add the menu at the top of the page.
+ */
+include(dirname(__FILE__) . '/../includes/header.php');
 
 ?>
 <div class="container">
@@ -123,4 +134,8 @@ if (isset($_POST['message'])) {
 	</div>
 </div>
 <?php
+
+/**
+ * Include the page footer to finish the page neatly.
+ */
 include(dirname(__FILE__) . '/../includes/footer.php');
