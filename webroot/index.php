@@ -19,7 +19,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 			<img src="/images/logo.gif" alt="CoderDojo Logo" class="col-md-2 logo" />
 			<div class="col-md-10">
 				<h1>Do code.</h1>
-				<p>Stockport CoderDojo is a free code club where children can learn to code in a safe, friendly and relaxed environment.</p>
+				<p>Stockport CoderDojo is a free code club where young people can learn to code in a safe, friendly and relaxed environment.</p>
 				<p><a class="btn btn-primary btn-lg" role="button" href="/about_coderdojo.php">Learn more &raquo;</a></p>
 			</div>
 		</div>
@@ -36,7 +36,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 		</div>
 		<div class="col-md-4">
 			<h2>Where / When?</h2>
-			<p>StockportDojo is based in space generously donated by Startpoint Woodley. We hold Dojos every X Saturday of the month from Xam until Xpm. Find out more about our location.</p>
+			<p>StockportDojo is based in space generously donated by Startpoint Woodley. We hold Dojos every 3rd Sunday of the month. Find out more about our location.</p>
 			<p><a class="btn btn-default" href="/about_stockportdojo.php" role="button">Find StockportDojo &raquo;</a></p>
 		</div>
 		<div class="col-md-4">
