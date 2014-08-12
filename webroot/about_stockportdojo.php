@@ -19,7 +19,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 		</div>
 		<div class="col-md-8">
 			<h2>When does StockportDojo run?</h2>
-			<p>StockportDojo runs every Xth Saturday of the month. We start from Xam and finish at (roughly) Xpm.</p>
+			<p>StockportDojo runs every 3rd Sunday of the month.<!-- We start from Xam and finish at (roughly) Xpm.--></p>
 			<p>Although we're happy for people to drop in and leave at any time during the session, to get the best out of a session please try to give yourself as much time as you can. We also tend to make any announcements at the start of the session, so if you turn up part way through, please check with a mentor in case you missed anything important.</p>
 		</div>
 

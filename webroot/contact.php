@@ -39,7 +39,7 @@ if (isset($_POST['message'])) {
 		$message.= 'Email: ' . $_POST['senderEmail'] . "\n";
 		$message.= 'Message: ' . $_POST['message'];
 
-		mail('hippyjim@gmail.com', 'Message From stockportdojo website', $message);
+		mail('hippyjim@gmail.com, stockportcoderdojo@gmail.com', 'Message From stockportdojo website', $message);
 
 	} else {
 		$postedName = $_POST['senderName'];
@@ -63,9 +63,8 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<h3>Get Social</h3>
 				<p>Find us on social media:</p>
 				<ul>
-					<li>@XX on Twitter</li>
-					<li>XX on Facebook</li>
-					<li>XX on Google+</li>
+					<li><a href="https://twitter.com/intent/user?screen_name=stockportdojo">Follow @stockportdojo on Twitter</a></li>
+					<li>Facebook coming soon</li>
 				</ul>
 			</div>
 			<div class="well">
