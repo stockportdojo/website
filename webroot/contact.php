@@ -66,6 +66,8 @@ include(dirname(__FILE__) . '/../includes/header.php');
 					<li><a href="https://twitter.com/intent/user?screen_name=stockportdojo">Follow @stockportdojo on Twitter</a></li>
 					<li>Facebook coming soon</li>
 				</ul>
+				<h3>Get Zen</h3>
+				<p>Find our listing on the <a href="https://zen.coderdojo.com/dojo/906">CoderDojo Zen</a> list of dojos</p>
 			</div>
 			<div class="well">
 				<h3>At Startpoint</h3>
