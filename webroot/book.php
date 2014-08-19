@@ -18,6 +18,9 @@ include(dirname(__FILE__) . '/../includes/header.php');
 			<div class="col-md-4">
 				<img class="img-responsive img-thumbnail" src="/images/book_your_place.jpg"
 					 alt="Photograph of Ninjas coding with Minecraft at Stockport Dojo">
+				<div class="well well-sm" style="margin-top: 1em; max-width: 320px">
+					If you're interested in helping out as a Mentor or volunteer, please use our <a href="/contact.php">Contact Us page</a> to get in touch.
+				</div>
 			</div>
 			<div class="col-md-8">
 				<h2>Get Me Coding!</h2>
