@@ -58,6 +58,9 @@ include(dirname(__FILE__) . '/../includes/header.php');
 <div class="container">
 	<div class="row">
 		<h2>Contact Us</h2>
+		<div class="col-md-12">
+			<p>If you'd like to know more about us, or are interested in volunteering as a Mentor or Organiser, use the methods below to get in touch.</p>
+		</div>
 		<div class="col-md-5 gutter-right">
 			<div class="well">
 				<h3>Get Social</h3>
