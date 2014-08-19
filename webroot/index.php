@@ -41,7 +41,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 		</div>
 		<div class="col-md-4">
 			<h2>Sign me up!</h2>
-			<p>As we're still growing, places are limited so booking for each session is essential. Visit our booking page for details of our next session and to book your place or register your interest in mentoring.</p>
+			<p>As we're still growing, places are limited so booking for each session is essential. Visit our booking page for details of our next session and to book your place. If you're interested in mentoring, please get in touch through our <a href="/contact.php">Contact Page</a>.</p>
 			<p><a class="btn btn-default" href="/book.php" role="button">Book My Place &raquo;</a></p>
 		</div>
 	</div>
