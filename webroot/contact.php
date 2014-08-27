@@ -67,7 +67,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<p>Find us on social media:</p>
 				<ul>
 					<li><a href="https://twitter.com/intent/user?screen_name=stockportdojo">Follow @stockportdojo on Twitter</a></li>
-					<li>Facebook coming soon</li>
+					<li><a href="https://www.facebook.com/stockportdojo">Like us on Facebook</a></li>
 				</ul>
 				<h3>Get Zen</h3>
 				<p>Find our listing on the <a href="https://zen.coderdojo.com/dojo/906">CoderDojo Zen</a> list of dojos</p>
