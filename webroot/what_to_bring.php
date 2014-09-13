@@ -34,7 +34,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 			<p>Some software you can install:</p>
 			<ul>
 				<li><strong>Scratch</strong> - Scratch is an easy to use graphical programming language you can use to make games and animations. We use Scratch 1.4 which you can download for free from <a href="http://scratch.mit.edu/scratch_1.4/">the scratch website</a></li>
-				<li><strong>Minecraft</strong> - If you're interested in coding for Minecraft, it would be useful to <a href="https://minecraft.net/store/minecraft">buy a Minecraft account</a> beforehand. If you prefer not to, we have some shared accounts (offline only!) or you can try Minecraft on the Raspberry Pi for free.<br>
+				<li><strong>Minecraft</strong> - If you're interested in coding for Minecraft, it would be useful to <a href="https://minecraft.net/store/minecraft">buy a Minecraft account</a> beforehand. If you prefer not to, you can try Minecraft on the Raspberry Pi for free.<br>
 				If you want to code in Minecraft on your own laptop, you might want to try the steps in this <a href="http://wiki.mcrcoderdojo.org.uk/index.php/Minecraft_Python:_Setting_up">installation guide</a> (by Mcr Dojo). If you find any of this tricky, then just bring your laptop along to the dojo and one of the Ninjas or Mentors will help you get set up.</li>
 
 			</ul>
