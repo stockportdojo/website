@@ -25,7 +25,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 			<ul>
 				<li><strong>A Laptop</strong> - if you have your own laptop please bring it with you (don't forget to charge it!). If you don't have one, we can lend you one but please let us know beforehand so we can make sure we have one ready for you.</li>
 				<li><strong>An Adult</strong> - if you're under 12 years old you'll need to bring an adult with you, who will need to stay for the session (who knows, they might learn a thing or two themselves).</li>
-				<li><strong>Lunch money</strong> - the coffee shop will not be open but we will have some drinks and a limited food menu available all day so you can purchase lunch and refreshments.</li>
+				<li><strong>Lunch money</strong> - there will be a lunch break from 12 – 12.30. The coffee shop will be open and serving food all day so you can purchase lunch and refreshments.</li>
 			</ul>
 			<p>If you have your own Raspberry Pi feel free to bring it along - that way you can carry on the fun at home! Please remember your power supply, keyboard, SD card etc.</p>
 			<h3>What else can I do to get ready?</h3>
