@@ -26,7 +26,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<h2>Get Me Coding!</h2>
 
 				<p>We run every 3rd Sunday in the month.</p>
-				<p>Our next Dojo is on the 19th October from 11am to 3pm. Places are limited so use the form below to book yours.</p>
+				<p>Our next Dojo is on the 16th November from 11am to 3pm. Places are limited so when tickets are available you can use the form below to book yours.</p>
 				<p><em>Don't forget, Ninjas under 12 will need an adult to stay with them.</em></p>
 				<div class="well well-sm">
 					<iframe src="//eventbrite.co.uk/tickets-external?eid=13367264849&ref=etckt" frameborder="0"
