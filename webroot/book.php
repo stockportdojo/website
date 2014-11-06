@@ -29,7 +29,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<p>Our next Dojo is on the 16th November from 11am to 3pm. Places are limited so when tickets are available you can use the form below to book yours.</p>
 				<p><em>Don't forget, Ninjas under 12 will need an adult to stay with them.</em></p>
 				<div class="well well-sm">
-					<iframe src="//eventbrite.co.uk/tickets-external?eid=13367264849&ref=etckt" frameborder="0"
+					<iframe src="//eventbrite.co.uk/tickets-external?eid=14205271349&ref=etckt" frameborder="0"
 							height="260" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5"
 							scrolling="auto" allowtransparency="true"></iframe>
 				</div>
