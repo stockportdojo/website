@@ -28,9 +28,11 @@ $whatToBringActive = '';
 $mentorsActive = '';
 $parentsActive = '';
 $whatWeDoActive = '';
+$whatWeveDoneActive = '';
 $scratchActive = '';
 $minecraftActive = '';
 $makeyActive = '';
+$makerFunActive = '';
 $websitesActive = '';
 $raspiActive = '';
 $otherActivityActive = '';
@@ -96,6 +98,13 @@ switch($_SERVER['PHP_SELF']) {
 		$whatWeDoActive = ' active ';
 		$makeyActive = ' active ';
 		break;
+
+
+    // We're on the "Makey-makey" page
+    case '/maker_fun.php':
+        $whatWeveDoneActive = ' active ';
+        $makerFunActive = ' active ';
+        break;
 
 	// We're on the "Websites" page
     case '/websites.php':
@@ -229,6 +238,12 @@ switch($_SERVER['PHP_SELF']) {
 						<li class="<?php echo $otherActivityActive;?>"><a href="/other_activities.php">What else?</a></li>
 					</ul>
 				</li>
+                <li class="dropdown <?php echo $whatWeveDoneActive;?>">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">What we've done<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="<?php echo $makerFunActive;?>"><a href="/maker_fun.php">Maker Fun</a></li>
+                    </ul>
+                </li>
 				<li class="<?php echo $contactActive;?>" ><a href="/contact.php">Contact Us</a></li>
 				<li class="<?php echo $bookActive;?>" ><a href="/book.php">Book Your Place</a></li>
 				<li class="<?php echo $usefulStuffActive;?>" ><a href="/useful_stuff.php">Useful Stuff</a></li>
