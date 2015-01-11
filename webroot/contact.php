@@ -1,5 +1,14 @@
 <?php
 
+$useRecaptcha = false;
+if (file_exists(dirname(__FILE__) . '/../includes/recaptchaconfig.php')) {
+	include(dirname(__FILE__) . '/../includes/recaptchaconfig.php');
+}
+
+?>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<?php
+
 /**
  * contact.php
  *
@@ -17,7 +26,23 @@ $postedMessage = '';
 if (isset($_POST['message'])) {
 	$formSubmitted = true;
 
+	if ($useRecaptcha) {
+		include(dirname(__FILE__) . '/../includes/recaptcha.php');
+		$resp = null;
+		$error = null;
+		$reCaptcha = new ReCaptcha($secret);
+		if ($_POST["g-recaptcha-response"]) {
+			$resp = $reCaptcha->verifyResponse(
+				$_SERVER["REMOTE_ADDR"],
+				$_POST["g-recaptcha-response"]
+			);
+		}
 
+		if (is_null($resp) || !$resp->success) {
+			$formErrors['captcha'] = 'Please confirm you are not a robot';
+		}
+
+	}
 
 	if (empty($_POST['senderName'])) {
 		$formErrors['senderName'] = 'Please enter your name';
@@ -39,7 +64,7 @@ if (isset($_POST['message'])) {
 		$message.= 'Email: ' . $_POST['senderEmail'] . "\n";
 		$message.= 'Message: ' . $_POST['message'];
 
-		mail('hippyjim@gmail.com, stockportcoderdojo@gmail.com', 'Message From stockportdojo website', $message);
+		mail('hippyjim@gmail.com', 'Message From stockportdojo website', $message);
 
 	} else {
 		$postedName = $_POST['senderName'];
@@ -132,6 +157,19 @@ include(dirname(__FILE__) . '/../includes/header.php');
 					}
 					?>
 				</div>
+				<?php if ($useRecaptcha) { ?>
+				<div class="form-group <?php if (isset($formErrors['captcha'])) { echo "has-error has-feedback"; } ?>">
+				<?php
+					if (isset($formErrors['captcha'])) {
+						?>
+						<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+						<?php
+						echo "<p class=\"help-block\">" . $formErrors['captcha'] . "</p>";
+					}
+				?>
+				<div class="g-recaptcha" data-sitekey="6LfaUAATAAAAAGjXvaOBicIc4GmGRO6M6LWqC3HF"></div>
+				</div>
+				<?php } ?>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
 		</div>

@@ -4,3 +4,4 @@
 
 # Ignore the files used by PhpStorm (a code editor)
 .idea
+includes/recaptchaconfig.php
