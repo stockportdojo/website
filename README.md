@@ -11,7 +11,7 @@ Most files have code comments included to help you understand the structure.
 Getting started
 ===============
 
-If you're at the Dojo, ask a mentor for the files you need, and unzip them all somewhere on your PC. The Mentor shold have these files on a USB Flash drive.
+If you're at the Dojo, ask a mentor for the files you need, and unzip them all somewhere on your PC. The Mentor should have these files on a USB Flash drive.
 
 Starting your PHP server
 ========================
