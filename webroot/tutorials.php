@@ -1,9 +1,9 @@
 <?php
 
 /**
- * minecraft.php
+ * tutorials.php
  *
- * This file is the "Minecraft" page.
+ * This file is the "Tutorials" page.
  *
  */
 
