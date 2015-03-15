@@ -28,6 +28,7 @@ and to learn how to program in languages like Scratch and Python.</p>
 			
 			<div class="well">
 				<h3>Buy A Raspberry Pi</h3>
+                <p>We have some Rasperry Pis at the dodjo for you to use, but if you want to carry on the fun at home, they're not expensive to buy.</p>
 				<p>You can buy a Raspberry Pi for around £25.  You need a USB keyboard, a USB mouse, HDMI cable and HDMI TV/Monitor to use it.
 				<p><a class="btn btn-info" href="http://www.raspberrypi.org/products/">Buy A Raspberry Pi</a></li></p>
 			</div>
