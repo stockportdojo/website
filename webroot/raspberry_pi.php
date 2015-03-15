@@ -22,6 +22,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 a computer monitor or TV, and uses a standard keyboard and mouse. It is a 
 capable little device that enables people of all ages to explore computing, 
 and to learn how to program in languages like Scratch and Python.</p>
+            <p>At Stockport CoderDojo we use it to code in Python and <a href="scratch.php">Scratch</a>, make music with Sonic Pi, and make <a href="minecraft.php">Minecraft</a> mods.</p>
 		</div>
 		<div class="col-md-5 gutter-right">
 			
@@ -33,7 +34,7 @@ and to learn how to program in languages like Scratch and Python.</p>
 		</div>
 		<div class="col-md-5 well">
 			<h3>Why Raspberry Pi?</h3>
-			<p>It’s great for programming on, using Scratch and Python.  Free version of 
+			<p>It’s great for programming on, using Scratch and Python. There's a free version of
 Minecraft for it too, which allows you to control the Minecraft world using programming languages
 such as Python.
 		</div>
