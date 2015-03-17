@@ -33,6 +33,7 @@ $scratchActive = '';
 $minecraftActive = '';
 $makeyActive = '';
 $makerFunActive = '';
+$mothersDayEcardActive = '';
 $websitesActive = '';
 $raspiActive = '';
 $otherActivityActive = '';
@@ -104,6 +105,12 @@ switch($_SERVER['PHP_SELF']) {
     case '/maker_fun.php':
         $whatWeveDoneActive = ' active ';
         $makerFunActive = ' active ';
+        break;
+
+    // We're on the "Mothers Day E-card" page
+    case '/mothers_day_ecards.php':
+        $whatWeveDoneActive = ' active ';
+        $mothersDayEcardActive = ' active ';
         break;
 
 	// We're on the "Websites" page
@@ -242,6 +249,7 @@ switch($_SERVER['PHP_SELF']) {
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">What we've done<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li class="<?php echo $makerFunActive;?>"><a href="/maker_fun.php">Maker Fun</a></li>
+                        <li class="<?php echo $mothersDayEcardActive;?>"><a href="/mothers_day_ecards.php">Mother's Day E-Cards</a></li>
                     </ul>
                 </li>
 				<li class="<?php echo $contactActive;?>" ><a href="/contact.php">Contact Us</a></li>
