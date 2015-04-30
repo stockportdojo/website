@@ -26,11 +26,11 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<h2>Get Me Coding!</h2>
 
 				<p>We run every 3rd Sunday in the month.</p>
-				<p>Our next Dojo is on the 19th April 2015 from 11am to 3pm. Places are limited so when tickets are available you can use the form below to book yours.
-					Tickets will be available from 1st April 2015 (no fooling!).</p>
+				<p>Our next Dojo is on the 17th May 2015 from 11am to 3pm. Places are limited so when tickets are available you can use the form below to book yours.
+					Tickets will be available from 1st May 2015.</p>
                 <p><em>Don't forget, Ninjas under 12 will need an adult to stay with them.</em></p>
 				<div class="well well-sm">
-					<iframe src="//eventbrite.co.uk/tickets-external?eid=16074544395&ref=etckt" frameborder="0"
+					<iframe src="//eventbrite.co.uk/tickets-external?eid=16737703923&ref=etckt" frameborder="0"
 							height="260" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5"
 							scrolling="auto" allowtransparency="true"></iframe>
 				</div>

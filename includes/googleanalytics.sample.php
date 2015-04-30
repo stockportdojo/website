@@ -1,0 +1,1 @@
+//Copy your Google analytics code in here, and rename this file to googleanalytics.php
