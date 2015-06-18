@@ -21,6 +21,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
                     <p>Below are some of the tutorials we use at the Dojo:</p>
                     <ul>
                         <li><a href="https://stockportcoderdojo.makes.org/thimble/ODA1NDM3OTUy/stockport-dojo-mothers-day-card-tutorial">Mother's Day e-card</a></li>
+                        <li><a href="https://stockportcoderdojo.makes.org/thimble/LTI5NTgyODk5Mg==/stockport-dojo-fathers-day-card-tutorial">Father's Day e-card</a></li>
                     </ul>
                 </div>
 
