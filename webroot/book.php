@@ -26,9 +26,10 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<h2>Get Me Coding!</h2>
 
 				<p>We run every 3rd Sunday in the month.</p>
-                <p>Our next Dojo is on the 17th January 2016 from 11am to 3pm. Places are limited so use the form below to book yours. Tickets are available now.</p>
+                <p>Our next Dojo is on the 21st February 2016 from 11am to 3pm. Places are limited so please use Zen to book yours. Tickets are available now.</p>
                 <p><em>Don't forget, Ninjas under 12 will need an adult to stay with them.</em></p>
 				<p><strong>STOP PRESS!</strong> - We're trying out the brand new CoderDojo booking system - powered by Zen! You can find it at:</p>
+				<p>Parents - if you've not already joined our Dojo on Zen, you'll need to have an account on Zen and ask to join - you can then add your Ninjas as "Youth" members.</p>
 				<p><a class="btn btn-block btn-primary btn-lg" href="https://zen.coderdojo.com/dojo/gb/stockport/stockport-1"><strong>https://zen.coderdojo.com/dojo/gb/stockport/stockport-1</strong></a></p>
 			</div>
 		</div>
