@@ -12,10 +12,16 @@
  */
 include(dirname(__FILE__) . '/../includes/header.php');
 
-/**
- * Include the placeholder file to fill the page until we have real content
- */
-include(dirname(__FILE__) . '/../includes/placeholder.php');
+?>
+<div class="container">
+    <h2>Websites</h2>
+    <div class="row well">
+        <p>Some of our Ninjas have had fun working on their own web pages. One example is this really cool page from Eddie C:</p>
+        <p><a href="/ninjaprojects/eddiec/">Eddie C's Webpage about CoderDojo</a> </p>
+
+    </div>
+</div>
+<?php
 
 /**
  * Include the page footer to finish the page neatly.
