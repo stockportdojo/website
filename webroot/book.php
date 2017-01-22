@@ -26,11 +26,13 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<h2>Get Me Coding!</h2>
 
 				<p>We run every 3rd Sunday in the month.</p>
-                <p>Our next Dojo is on the 20th November 2016 from 11am to 3pm. Places are limited so please use the form below to book yours. Tickets are available from 1st November 2016.</p>
+                <p>Our next Dojo is on the 19th February 2017 from 11am to 3pm. Places are limited so please use the form below to book yours. Tickets <?php echo (time() > strtotime('2017-02-01 00:00:01') ) ? 'are available now' : 'will be available from 1st February 2017'; ?>.</p>
                 <p><em>Don't forget, Ninjas under 12 will need an adult to stay with them.</em></p>
+				<p class="alert alert-danger"><strong>Extra!</strong> - We're at <a style="color: #FF0;" href="https://makestuff.madlab.org.uk/eventlistings/2017/2/18/central-library-stockport-stockports-digital-festival">Make Stuff in Stockport Central Library</a> from 10am - 4pm on 18th Feb. No need to book, just come along!</p>
+
                 <div style="width:100%; text-align:left;">
                     <iframe
-                        src="//eventbrite.co.uk/tickets-external?eid=29033949324&ref=etckt"
+                        src="//eventbrite.co.uk/tickets-external?eid=31400177777&ref=etckt"
                         frameborder="0" height="600"
                         width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5"
                         scrolling="auto" allowtransparency="true"></iframe>
