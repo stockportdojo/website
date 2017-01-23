@@ -12,7 +12,7 @@
  */
 
 /* Load the font from Google's servers */
-@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+@import url("//fonts.googleapis.com/css?family=Patrick+Hand|Signica:400,700");
 /*!
  * Bootswatch v3.2.0
  * Homepage: http://bootswatch.com
@@ -903,7 +903,7 @@ html {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-	font-family: "Cabin", Arial, sans-serif;
+	font-family: "Signica", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #ffffff;
@@ -1004,7 +1004,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Patrick Hand', cursive;
 	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
@@ -6186,7 +6186,7 @@ button.close {
 	}
 }
 .navbar-brand {
-	font-family: 'Lobster', cursive;
+	font-family: 'Patrick Hand', cursive;
 }
 .navbar-default .badge {
 	background-color: #fff;
@@ -6238,7 +6238,7 @@ textarea {
 	color: #444444;
 }
 legend {
-	font-family: 'Lobster', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #fff;
 }
 .input-group-addon {
