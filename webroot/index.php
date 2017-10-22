@@ -16,12 +16,20 @@ include(dirname(__FILE__) . '/../includes/header.php');
 <div class="jumbotron">
 	<div class="container">
 		<div class="row">
-			<img src="/images/logo.gif" alt="CoderDojo Logo" class="col-md-2 logo" />
-			<div class="col-md-10">
+            <div class="col-md-2">
+                <img src="/images/logo.gif" alt="CoderDojo Logo" class="logo" />
+            </div>
+			<div class="col-md-6">
 				<h1>Do code.</h1>
 				<p>Stockport CoderDojo is a free code club where young people can learn to code in a safe, friendly and relaxed environment.</p>
 				<p><a class="btn btn-primary btn-lg" role="button" href="/about_coderdojo.php">Learn more &raquo;</a></p>
 			</div>
+            <div class="col-md-4">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/0usv3wLnH2w?ecver=1" frameborder="0" allowfullscreen></iframe>
+                <div class="col-md-12 small">
+                    The video above was made by one our Ninjas - <a href="https://www.youtube.com/watch?v=0usv3wLnH2w">Eddie C</a>
+                </div>
+            </div>
 		</div>
 	</div>
 </div>
