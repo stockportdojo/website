@@ -255,7 +255,6 @@ switch($_SERVER['PHP_SELF']) {
                 <li class="dropdown <?php echo $whatWeveDoneActive;?>">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">What we've done<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li class="<?php echo $makerFunActive;?>"><a href="/maker_fun.php">Maker Fun</a></li>
                         <li class="<?php echo $mothersDayEcardActive;?>"><a href="/mothers_day_ecards.php">Mother's Day E-Cards</a></li>
                     </ul>
                 </li>
